@@ -3,6 +3,11 @@ body:not(.full-width):not(.enterprise) main > .hide-full-screen > * {
 	padding-left: calc(50% - 1280px / 2) !important;
 }
 
+/* Align pagehead-actions to right-side of content */
+body:not(.full-width):not(.enterprise) main > .hide-full-screen > * > .pagehead-actions {
+	padding-right: calc(67.75% - 1280px / 2) !important;
+}
+
 /* Restore the original padding on those 2 elements. The media queries follows GitHub’s values */
 body:not(.full-width):not(.enterprise) main > .hide-full-screen > * > * {
 	margin-left: 16px !important;
